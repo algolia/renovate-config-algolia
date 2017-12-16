@@ -34,7 +34,7 @@ If you have a **JavaScript application** (dashboard, static website generator), 
 ```json
 {
   "renovate": {
-    "extends": ["config:application", "algolia"]
+    "extends": ["config:js-app", "algolia"]
   }
 }
 ```
