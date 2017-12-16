@@ -27,15 +27,13 @@ way, the right features and right time.
 npm install renovate-config-algolia --dev
 ```
 
-### 2. Modify your package.json.
+### 2. Create a renovate.json file:
 
 If you have a **JavaScript application** (dashboard, static website generator), update your package.json:
 
 ```json
 {
-  "renovate": {
-    "extends": ["config:js-app", "algolia"]
-  }
+  "extends": ["config:js-app", "algolia"]
 }
 ```
 
@@ -43,9 +41,7 @@ If you have a **JavaScript library**:
 
 ```json
 {
-  "renovate": {
-    "extends": ["config:js-lib", "algolia"]
-  }
+  "extends": ["config:js-lib", "algolia"]
 }
 ```
 
