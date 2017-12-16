@@ -21,7 +21,8 @@
     }
   },
   "scripts": {
-    "release": "doctoc *.md && git add *.md && git commit -m 'docs(TOC): doctoc md files' && np"
+    "release": "np",
+    "version": "doctoc *.md && git add *.md"
   },
   "license": "MIT",
   "author": "Algolia, Inc. (https://www.algolia.com)",
