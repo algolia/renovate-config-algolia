@@ -1,0 +1,35 @@
+{
+  "name": "renovate-config-algolia",
+  "description": "Algolia's renovate shareable configuration",
+  "version": "0.0.1",
+  "renovate": {
+    "extends": [
+      "config:js-lib",
+      "algolia"
+    ]
+  },
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "schedule:weekends",
+        ":automergeMinor",
+        ":automergeBranchPush",
+        ":semanticCommits",
+        ":rebaseStalePrs",
+        ":timezone(Europe/Paris)"
+      ]
+    }
+  },
+  "scripts": {
+    "release": "np"
+  },
+  "license": "MIT",
+  "author": "Algolia, Inc. (https://www.algolia.com)",
+  "engines": {
+    "node": "^9.3.0",
+    "yarn": "^1.3.2"
+  },
+  "devDependencies": {
+    "np": "2.18.3"
+  }
+}
