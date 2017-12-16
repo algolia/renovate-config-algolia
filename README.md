@@ -1,19 +1,30 @@
 # renovate-config-algolia
 
-[Renovate](https://renovateapp.com/) keeps npm dependencies up-to-date. The right
-way, the right features.
-
 This repository holds a [shareable configuration](https://renovateapp.com/docs/configuration-reference/config-presets), much like [algolia/eslint-config-algolia](https://github.com/algolia/eslint-config-algolia/).
+
+[Renovate](https://renovateapp.com/) keeps npm dependencies up-to-date. The right
+way, the right features and right time.
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [How to use it](#how-to-use-it)
+- [What's inside the configuration?](#whats-inside-the-configuration)
+- [Requirements](#requirements)
+- [Releasing](#releasing)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## How to use it
 
-1. Install it:
+### 1. Install the configuration:
 
 ```sh
 npm install renovate-config-algolia --dev
 ```
 
-2. Modify your package.json.
+### 2. Modify your package.json.
 
 If you have a **JavaScript application** (dashboard, static website generator), update your package.json:
 
@@ -35,9 +46,13 @@ If you have a **JavaScript library**:
 }
 ```
 
-The only difference between the two is that, an application, will have `devDependencies` AND `dependencies` pinned. While a JavaScript library will only have `devDependencies` pinned.
+The only difference between the two configuration is that, an application, will have `devDependencies` AND `dependencies` pinned. While a JavaScript library will only have `devDependencies` pinned.
 
 [Read more](https://renovateapp.com/docs/deep-dives/dependency-pinning) about dependencies pinning.
+
+### 3. Activate renovate
+
+Go to https://github.com/apps/renovate, ask a GitHub admin of the organisation if you need help on how to do this step.
 
 ## What's inside the configuration?
 

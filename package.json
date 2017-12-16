@@ -21,7 +21,7 @@
     }
   },
   "scripts": {
-    "release": "np"
+    "release": "doctoc *.md && np"
   },
   "license": "MIT",
   "author": "Algolia, Inc. (https://www.algolia.com)",
@@ -30,6 +30,7 @@
     "yarn": "^1.3.2"
   },
   "devDependencies": {
+    "doctoc": "1.3.0",
     "np": "2.18.3"
   }
 }
