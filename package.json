@@ -1,7 +1,7 @@
 {
   "name": "renovate-config-algolia",
   "description": "Algolia's renovate shareable configuration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "renovate": {
     "extends": [
       "config:js-lib",
