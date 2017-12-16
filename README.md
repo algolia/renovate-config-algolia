@@ -29,7 +29,7 @@ npm install renovate-config-algolia --dev
 
 ### 2. Create a renovate.json file:
 
-If you have a **JavaScript application** (dashboard, static website generator), update your package.json:
+If you have a **JavaScript application** (dashboard, static website generator), put in `renovate.json`:
 
 ```json
 {
