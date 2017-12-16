@@ -1,7 +1,7 @@
 {
   "name": "renovate-config-algolia",
   "description": "Algolia's renovate shareable configuration",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "renovate": {
     "extends": [
       "config:js-lib",
@@ -21,7 +21,7 @@
     }
   },
   "scripts": {
-    "release": "np",
+    "release": "np --no-publish && npm publish",
     "version": "doctoc *.md && git add *.md"
   },
   "license": "MIT",
