@@ -21,13 +21,7 @@ way, the right features and right time.
 
 ## How to use it
 
-### 1. Install the configuration:
-
-```sh
-npm install renovate-config-algolia --dev
-```
-
-### 2. Create a renovate.json file:
+### 1. Create a renovate.json file:
 
 If you have a **JavaScript application** (dashboard, static website generator), put in `renovate.json`:
 
@@ -47,9 +41,11 @@ If you have a **JavaScript library**:
 
 The only difference between the two configuration is that, an application, will have `devDependencies` AND `dependencies` pinned. While a JavaScript library will only have `devDependencies` pinned.
 
+There's no need to install `renovate-config-algolia`, it's automatically picked up by renovate for now.
+
 [Read more](https://renovateapp.com/docs/deep-dives/dependency-pinning) about dependencies pinning.
 
-### 3. Activate renovate
+### 2. Activate renovate
 
 Go to https://github.com/apps/renovate, ask a GitHub admin of the organisation if you need help on how to do this step.
 
