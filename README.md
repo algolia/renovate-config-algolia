@@ -10,9 +10,8 @@ way, the right features and right time.
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [How to use it](#how-to-use-it)
-  - [1. Install the configuration:](#1-install-the-configuration)
-  - [2. Modify your package.json.](#2-modify-your-packagejson)
-  - [3. Activate renovate](#3-activate-renovate)
+  - [1. Create a renovate.json file:](#1-create-a-renovatejson-file)
+  - [2. Activate renovate](#2-activate-renovate)
 - [What's inside the configuration?](#whats-inside-the-configuration)
 - [Requirements](#requirements)
 - [Releasing](#releasing)
