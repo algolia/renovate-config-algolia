@@ -888,9 +888,9 @@ normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
     semver "2 || 3 || 4 || 5"
     validate-npm-package-license "^3.0.1"
 
-np@2.20.0:
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/np/-/np-2.20.0.tgz#b66e7214deb7a9914d6786f0efd4fa835d58bd58"
+np@2.20.1:
+  version "2.20.1"
+  resolved "https://registry.yarnpkg.com/np/-/np-2.20.1.tgz#6369add67598d0de8cfeecf308249b6bb55a4bfb"
   dependencies:
     any-observable "^0.2.0"
     chalk "^2.3.0"
