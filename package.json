@@ -26,10 +26,6 @@
   },
   "license": "MIT",
   "author": "Algolia, Inc. (https://www.algolia.com)",
-  "engines": {
-    "node": "^9.3.0",
-    "yarn": "^1.3.2"
-  },
   "devDependencies": {
     "doctoc": "1.3.0",
     "np": "2.18.3"
