@@ -42,7 +42,7 @@ The only difference between the two configuration is that, an application, will 
 
 There's no need to install `renovate-config-algolia`, it's automatically picked up by renovate for now.
 
-[Read more](https://renovateapp.com/docs/deep-dives/dependency-pinning) about dependencies pinning.
+[Read more](https://renovatebot.com/docs/dependency-pinning/) about dependencies pinning.
 
 ### 2. Activate renovate
 
