@@ -16,6 +16,8 @@
         ":automergeBranchPush",
         ":semanticCommits",
         ":rebaseStalePrs",
+        ":prConcurrentLimit4",
+        ":prHourlyLimit2",
         ":timezone(Europe/Paris)"
       ]
     }
