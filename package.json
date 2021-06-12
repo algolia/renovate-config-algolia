@@ -30,7 +30,7 @@
   "license": "MIT",
   "author": "Algolia, Inc. (https://www.algolia.com)",
   "devDependencies": {
-    "doctoc": "1.4.0",
+    "doctoc": "2.0.1",
     "np": "4.0.2"
   }
 }
