@@ -6,4 +6,6 @@
 
 ```sh
 GH_TOKEN=<token> yarn release --ci=false
+
+yarn publish
 ```
