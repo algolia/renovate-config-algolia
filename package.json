@@ -31,6 +31,6 @@
   "author": "Algolia, Inc. (https://www.algolia.com)",
   "devDependencies": {
     "doctoc": "1.4.0",
-    "np": "4.0.2"
+    "np": "7.5.0"
   }
 }
