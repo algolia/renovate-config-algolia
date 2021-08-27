@@ -5,19 +5,6 @@ This repository holds a [shareable configuration](https://renovateapp.com/docs/c
 [Renovate](https://renovateapp.com/) keeps npm dependencies up-to-date. The right
 way, the right features and right time.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
-- [How to use it](#how-to-use-it)
-  - [1. Create a renovate.json file:](#1-create-a-renovatejson-file)
-  - [2. Activate renovate](#2-activate-renovate)
-- [What's inside the configuration?](#whats-inside-the-configuration)
-- [Requirements](#requirements)
-- [Releasing](#releasing)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## How to use it
 
 ### 1. Create a renovate.json file:
@@ -46,7 +33,7 @@ There's no need to install `renovate-config-algolia`, it's automatically picked 
 
 ### 2. Activate renovate
 
-Go to https://github.com/apps/renovate, ask a GitHub admin of the organisation if you need help on how to do this step.
+Go to <https://github.com/apps/renovate>, ask a GitHub admin of the organisation if you need help on how to do this step.
 
 ## What's inside the configuration?
 
@@ -55,17 +42,3 @@ This configuration is made to automerge any minor and patch updates to any depen
 It runs every weekend, Paris time.
 
 We choosed to have a configuration that directly push to GitHub to avoid any notification noise inside GitHub by having a lot of Pull Requests to merge manually. If the update passes your test suite, then it's merged directly. If tests are not passing or if there's a major upgrade then a pull request will be opened.
-
-## Requirements
-
-You can't use protected branch features along with this configuration. This is currently a [limitation from GitHub](https://platform.github.community/t/repositories-which-have-protected-branches-with-push-restrictions-have-no-ability-to-grant-push-rights-to-integrations/1376/36).
-
-If protected branches are activated on your repository, disable them (settings).
-
-## Releasing
-
-```sh
-# change package.json
-git commmit -am 'feat(renovate): more goodness'
-npm run release
-```

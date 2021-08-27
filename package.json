@@ -10,27 +10,66 @@
   },
   "renovate-config": {
     "default": {
-      "extends": [
-        "schedule:weekends",
-        ":automergeMinor",
-        ":automergeBranchPush",
-        ":semanticCommits",
-        ":rebaseStalePrs",
-        ":prConcurrentLimit10",
-        ":prHourlyLimit2",
-        ":timezone(Europe/Paris)"
+      "enabledManagers": [
+        "circleci",
+        "docker-compose",
+        "dockerfile",
+        "npm",
+        "nvm",
+        "terraform",
+        "cloudbuild"
       ],
-      "updateNotScheduled": false
+      "major": {
+        "automerge": false
+      },
+      "minor": {
+        "automerge": true
+      },
+      "patch": {
+        "automerge": true
+      },
+      "pin": {
+        "automerge": true
+      },
+      "separateMultipleMajor": true,
+      "schedule": [
+        "after 4pm on friday",
+        "before 9am on monday",
+        "every weekend"
+      ],
+      "reviewers": [],
+      "semanticCommitType": "chore",
+      "docker": {
+        "enabled": true
+      },
+      "circleci": {
+        "enabled": true
+      },
+      "node": {
+        "supportPolicy": [
+          "lts_active"
+        ]
+      },
+      "lockFileMaintenance": {
+        "enabled": true
+      },
+      "dependencyDashboard": true,
+      "stabilityDays": 1,
+      "prCreation": "not-pending",
+      "timezone": "Europe/Paris",
+      "prHourlyLimit": 4,
+      "prConcurrentLimit": 50
     }
   },
   "scripts": {
-    "release": "np --no-publish && npm publish",
-    "version": "doctoc *.md && git add *.md"
+    "release": "semantic-release"
   },
   "license": "MIT",
   "author": "Algolia, Inc. (https://www.algolia.com)",
   "devDependencies": {
-    "doctoc": "1.4.0",
-    "np": "7.5.0"
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@semantic-release/npm": "7.1.3",
+    "semantic-release": "17.4.7"
   }
 }
