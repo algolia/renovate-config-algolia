@@ -2,8 +2,7 @@
 
 This repository holds a [Renovate shareable configuration](https://renovateapp.com/docs/configuration-reference/config-presets), much like [algolia/eslint-config-algolia](https://github.com/algolia/eslint-config-algolia/).
 
-[Renovate](https://renovateapp.com/) keeps npm dependencies up-to-date.
-The right way, the right features and right time.
+[Renovate](https://renovateapp.com/) keeps npm dependencies up-to-date the right way, the right features and right time.
 
 ## How to use it
 
