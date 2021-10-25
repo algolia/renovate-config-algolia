@@ -21,6 +21,9 @@
         ":ignoreModulesAndTests",
         "group:monorepos",
         "group:recommended"
+        "group:algoliasearch-client-javascriptMonorepo",
+        "group:algoliasearch-autocompleteMonorepo",
+        "group:algolia-react-instantsearchMonorepo"
       ],
       "enabledManagers": [
         "circleci",
@@ -67,20 +70,6 @@
       "prCreation": "not-pending",
       "prHourlyLimit": 4,
       "prConcurrentLimit": 50,
-      "packageRules": [
-        {
-          "matchSourceUrlPrefixes": [
-            "https://github.com/algolia/algoliasearch-client-javascript"
-          ],
-          "groupName": "algoliasearch client javascript"
-        },
-        {
-          "matchSourceUrlPrefixes": [
-            "https://github.com/algolia/autocomplete"
-          ],
-          "groupName": "algolia autocomplete"
-        }
-      ],
       "rangeStrategy": "auto",
       "respectLatest": true,
       "separateMultipleMajor": true,
