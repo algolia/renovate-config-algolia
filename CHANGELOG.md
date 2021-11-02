@@ -1,3 +1,10 @@
+## [2.1.7](https://github.com/algolia/renovate-config-algolia/compare/v2.1.6...v2.1.7) (2021-11-02)
+
+
+### Bug Fixes
+
+* use group ([6d1e42b](https://github.com/algolia/renovate-config-algolia/commit/6d1e42b07162cc16630d9624f7c0eca0c07060de))
+
 ## [2.1.6](https://github.com/algolia/renovate-config-algolia/compare/v2.1.5...v2.1.6) (2021-10-11)
 
 
