@@ -1,3 +1,10 @@
+## [2.1.9](https://github.com/algolia/renovate-config-algolia/compare/v2.1.8...v2.1.9) (2022-01-26)
+
+
+### Bug Fixes
+
+* upgrade dependencies ([df6b061](https://github.com/algolia/renovate-config-algolia/commit/df6b061bdba367312e492b0f665103a597e651d0))
+
 ## [2.1.7](https://github.com/algolia/renovate-config-algolia/compare/v2.1.6...v2.1.7) (2021-11-02)
 
 
