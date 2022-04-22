@@ -1,3 +1,10 @@
+## [2.1.10](https://github.com/algolia/renovate-config-algolia/compare/v2.1.9...v2.1.10) (2022-04-22)
+
+
+### Bug Fixes
+
+* bump version ([b320d72](https://github.com/algolia/renovate-config-algolia/commit/b320d72498957e96f05c7353bc3878470e2d06bc))
+
 ## [2.1.9](https://github.com/algolia/renovate-config-algolia/compare/v2.1.8...v2.1.9) (2022-01-26)
 
 
