@@ -1,0 +1,69 @@
+{
+  "dependencyDashboard": true,
+  "extends": [
+    ":semanticPrefixFixDepsChoreOthers",
+    ":ignoreModulesAndTests",
+    "group:monorepos",
+    "group:recommended",
+    "group:algoliasearch-client-javascriptMonorepo",
+    "group:algoliasearch-autocompleteMonorepo",
+    "group:algolia-react-instantsearchMonorepo"
+  ],
+  "enabledManagers": [
+    "bundler",
+    "circleci",
+    "cloudbuild",
+    "docker-compose",
+    "dockerfile",
+    "gomod",
+    "github-actions",
+    "kubernetes",
+    "npm",
+    "nvm",
+    "ruby-version",
+    "terraform"
+  ],
+  "major": {
+    "automerge": false
+  },
+  "minor": {
+    "automerge": true
+  },
+  "patch": {
+    "automerge": true
+  },
+  "pin": {
+    "automerge": true
+  },
+  "schedule": [
+    "after 4pm on friday",
+    "before 9am on monday",
+    "every weekend"
+  ],
+  "reviewers": [],
+  "semanticCommitType": "chore",
+  "docker": {
+    "enabled": true
+  },
+  "circleci": {
+    "enabled": true
+  },
+  "node": {
+    "supportPolicy": [
+      "lts_active"
+    ]
+  },
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "prCreation": "not-pending",
+  "prHourlyLimit": 4,
+  "prConcurrentLimit": 20,
+  "rangeStrategy": "auto",
+  "respectLatest": true,
+  "separateMultipleMajor": true,
+  "separateMajorMinor": true,
+  "stabilityDays": 0,
+  "timezone": "Europe/Paris",
+  "updateNotScheduled": false
+}
