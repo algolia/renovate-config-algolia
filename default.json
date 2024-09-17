@@ -15,8 +15,8 @@
     "cloudbuild",
     "docker-compose",
     "dockerfile",
-    "gomod",
     "github-actions",
+    "gomod",
     "kubernetes",
     "npm",
     "nvm",
@@ -35,6 +35,17 @@
   "pin": {
     "automerge": true
   },
+  "customEnvVariables": {
+    "GOPRIVATE": "github.com/algolia",
+    "GONOSUMDB": "github.com/algolia",
+    "GONOPROXY": "github.com/algolia"
+  },
+  "gomod": {
+    "enabled": true
+  },
+  "postUpdateOptions": [
+    "gomodTidy"
+  ],
   "schedule": [
     "after 4pm on friday",
     "before 9am on monday",
