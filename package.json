@@ -1,7 +1,7 @@
 {
   "name": "renovate-config-algolia",
   "description": "Algolia's renovate shareable configuration",
-  "version": "2.1.10",
+  "version": "2.2.0",
   "scripts": {
     "release": "semantic-release"
   },

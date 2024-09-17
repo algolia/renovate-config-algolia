@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/algolia/renovate-config-algolia/compare/v2.1.10...v2.2.0) (2024-09-17)
+
+
+### Features
+
+* GitHub-hosted preset ([d3bb1fb](https://github.com/algolia/renovate-config-algolia/commit/d3bb1fb9443aacb248d49c01b14a4a3257d646f4))
+
 ## [2.1.10](https://github.com/algolia/renovate-config-algolia/compare/v2.1.9...v2.1.10) (2022-04-22)
 
 
